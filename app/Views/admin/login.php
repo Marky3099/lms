@@ -9,7 +9,7 @@
                      <div class="card-login shadow-lg border-0 rounded-lg mt-5 bg-light">
                         <div class="card-header">
                            <center><img src="img/logo.png" class="img-fluid w-25 my-4"></center>
-                           <h4 class="text-center my-0" style="font-weight:bold;">Library Management System</h4>
+                           <h4 class="text-center my-0" style="font-weight:bold;">LMS</h4>
                         </div>
                         <div class="card-body">
                            <?php if(session()->get('success')): ?>
