@@ -1,0 +1,70 @@
+body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+    background: url('../img/book.jpg') top center;
+    background-repeat: cover;
+    backdrop-filter: blur(10px);
+ }
+ .card-login, .card-register{
+    border-radius: 20px;
+    opacity: 0.9;
+ }
+ .login-body-slide{
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 15px;
+ }
+
+ .login-body-form{
+    margin-top: 100px;
+ }
+
+ #login-card-body, #login-card-copyright, #login-slide-main{
+    border-radius: 15px;
+ }
+
+ #navbar-opacity{
+    opacity: 0.8;
+ }
+
+ #frmUser,#form-input,#formMember{
+ border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+ }
+
+ #showPass {
+ background-color: #fff;
+ border-left: none;
+ border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+ height: 40px;
+ }
+
+ #frmPassword,#formPassword{
+ border-right: none;
+ }
+
+ #frm-icon-login, #form-icon{
+ background-color: #ffffff;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 10px;
+ height: 40px;
+ }
+
+ #btnSignIn{
+ border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 10px;
+ }
+ #btnGuest{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.required-field::after {
+   content: "*";
+   color: red;
+   margin-left:5px
+}

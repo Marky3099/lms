@@ -88,7 +88,7 @@ class AdminController extends BaseController
 
       $errors = [
         'password' => [
-          'validateUser' => 'Email Address or Password don\'t match'
+        'validateUser' => 'Email Address or Password don\'t match'
         ]
       ];
        if (! $this->validate($rules, $errors)) {

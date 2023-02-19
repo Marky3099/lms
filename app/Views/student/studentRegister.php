@@ -1,4 +1,4 @@
-<?= $this->extend("layout/student_register_layout"); ?>
+<?= $this->extend("layout/login_register_layout"); ?>
 <?= $this->section("content");?>
     <div id="layoutAuthentication">
         <div id="layoutAuthentication_content">
@@ -90,13 +90,6 @@
             </main>
         </div>
     </div>
-<style>
-   .btn-primary {
-  color: #fff;
-  background-color: maroon;
-  border-color: maroon;
-}
-</style>
 
 <script>
 // Get the contact input element

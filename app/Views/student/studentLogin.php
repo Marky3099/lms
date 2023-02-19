@@ -1,4 +1,4 @@
-<?= $this->extend("layout/admin_login_layout"); ?>
+<?= $this->extend("layout/login_register_layout"); ?>
 <?= $this->section("content"); ?>
    <div id="layoutAuthentication">
       <div id="layoutAuthentication_content">
